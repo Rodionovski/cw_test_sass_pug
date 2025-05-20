@@ -1,0 +1,26 @@
+mixin button(title, classes)
+    button.btn(type='button' class=classes)= title
+
+doctype html
+
+html
+    head
+        title Test pug
+        link(rel='stylesheet' href='../node_modules/bootstrap/dist/css/bootstrap.min.css')
+        link(rel='stylesheet' href='css/style.css')
+    body
+        div
+            div fgjfff
+                div
+                    +button ('Click me', 'btn-primary rounded-0')
+                    p
+                    p sdGDFHFDGD
+                        | cxgjdhjd
+                        | dgyjdghkgk
+                div
+                div
+                    include button
+                    include button
+                    include button
+                    include button
+                div
